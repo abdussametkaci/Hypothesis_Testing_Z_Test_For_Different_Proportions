@@ -25,3 +25,5 @@ My GUI is like below. Proportions and its count are taken from user. The user ca
 ![image](https://user-images.githubusercontent.com/61049743/94155377-8f832c80-fe87-11ea-9455-a76d0fa9857d.png)
 
 Furthermore, for giving some information to users, it is showed a message box. It is indicated that the users’ hypothesis is accepted or rejected. The value of test statistic and the test statistic are showed in which regions.
+
+![image](https://user-images.githubusercontent.com/61049743/94155517-b3467280-fe87-11ea-8995-b092ca28fdb2.png)
