@@ -9,3 +9,8 @@ We estimate the common proportion by the overall proportion of defective parts:
 
 The test statistic is calculated from this formula: 
 
+![image](https://user-images.githubusercontent.com/61049743/94153973-12a38300-fe86-11ea-873d-798c061cf82c.png)
+
+In the right tail, if test statistic is equal or more than critical value , the null hypothesis is rejected. Otherwise, the null hypothesis is accepted.  
+In the left tail, if test statistic is equal or less than critical value, the null hypothesis is rejected. Otherwise, the null hypothesis is accepted  
+In the two sided, for deciding to reject or accept the null hypothesis, two regions are observed. If the test statistic  is between (- ] or , the null hypothesis is rejected. Otherwise, the null hypothesis is accepted  
