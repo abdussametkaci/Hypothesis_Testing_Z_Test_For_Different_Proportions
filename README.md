@@ -20,3 +20,5 @@ In the two sided, for deciding to reject or accept the null hypothesis, two regi
 ![image](https://user-images.githubusercontent.com/61049743/94155199-5c409d80-fe87-11ea-8def-176c22ea7f2e.png)
 
 ### About My GUI
+My GUI is like below. Proportions and its count are taken from user. The user can select what user want alternative hypothesis method; left-tail, right tail or two sided.  When the user push draw button, acceptance or rejection regions are filling. Acceptance regions are filling with green color and rejection regions are filling red color.
+
