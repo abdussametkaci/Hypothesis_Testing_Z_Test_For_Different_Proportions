@@ -15,4 +15,4 @@ In the right tail, if test statistic is equal or more than critical value [![ima
 
 In the left tail, if test statistic is equal or less than critical value (-![image](https://user-images.githubusercontent.com/61049743/94154438-8ba2da80-fe86-11ea-802a-10533930a8b5.png)], the null hypothesis is rejected. Otherwise, the null hypothesis is accepted.  
 
-In the two sided, for deciding to reject or accept the null hypothesis, two regions are observed. If the test statistic  is between (- ] or , the null hypothesis is rejected. Otherwise, the null hypothesis is accepted  
+In the two sided, for deciding to reject or accept the null hypothesis, two regions are observed. If the test statistic  is between (-![image](https://user-images.githubusercontent.com/61049743/94154705-dae90b00-fe86-11ea-9d0d-b9b4c401f3db.png) or , the null hypothesis is rejected. Otherwise, the null hypothesis is accepted  
