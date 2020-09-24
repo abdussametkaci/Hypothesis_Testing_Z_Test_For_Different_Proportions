@@ -1,1 +1,1 @@
-[Hypothesis_Testing_Z_Test_For_Different_Proportions.pdf](https://github.com/abdussametkaci/Hypothesis_Testing_Z_Test_For_Different_Proportions/files/5276473/Hypothesis_Testing_Z_Test_For_Different_Proportions.pdf)
+
