@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hypothesis_Testing_Z_Test_For_Different_Proportions.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ComboBox fx:id="alternativeComboBox" layoutX="584.0" layoutY="94.0" prefHeight="31.0" prefWidth="85.0" />
+      <Label layoutX="536.0" layoutY="50.0" text="H0:pA" />
+      <Label layoutX="673.0" layoutY="50.0" text="pB" />
+      <Label layoutX="536.0" layoutY="99.0" text="Ha:pA" />
+      <Label layoutX="673.0" layoutY="99.0" text="pB" />
+      <Label layoutX="539.0" layoutY="154.0" text="Proportion A: (pA)" />
+      <TextField fx:id="proportionATextField" layoutX="723.0" layoutY="149.0" prefHeight="31.0" prefWidth="120.0" />
+      <Label layoutX="540.0" layoutY="264.0" text="Proportion B: (pB)" />
+      <TextField fx:id="proportionBTextField" layoutX="723.0" layoutY="249.0" prefHeight="31.0" prefWidth="120.0" />
+      <TextField fx:id="countATextField" layoutX="723.0" layoutY="200.0" prefHeight="31.0" prefWidth="120.0" />
+      <TextField fx:id="countBTextField" layoutX="723.0" layoutY="302.0" prefHeight="31.0" prefWidth="120.0" />
+      <Label layoutX="542.0" layoutY="205.0" text="Count A: n" />
+      <Label layoutX="540.0" layoutY="307.0" text="Count B: m" />
+      <Label layoutX="542.0" layoutY="354.0" text="Significance Level: (alpha)" />
+      <TextField fx:id="significanceLevelTextField" layoutX="723.0" layoutY="349.0" prefHeight="31.0" prefWidth="120.0" />
+      <Button fx:id="drawButton" layoutX="542.0" layoutY="393.0" mnemonicParsing="false" onAction="#drawButtonAction" text="Draw" />
+      <LineChart fx:id="lineChart" layoutX="21.0" layoutY="15.0" title="Line Chart">
+        <xAxis>
+          <NumberAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label fx:id="graphLabel" layoutX="225.0" layoutY="205.0" />
+      <Label layoutX="627.0" layoutY="398.0" text="Result:" />
+      <Label fx:id="resultLabel" layoutX="723.0" layoutY="398.0" prefHeight="21.0" prefWidth="120.0" />
+      <Label layoutX="605.0" layoutY="50.0" prefHeight="21.0" prefWidth="44.0" text="    =" />
+    </children>
+</AnchorPane>
